@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import "./Components/style.css";
+import HelloWorld from "./Components/HelloWorld";
+import StateComponent from "./Components/StateComponent";
+import Conunter from "./Components/Conunter";
+import Toogle from "./Components/Toogle";
+import Lists from "./Components/Lists";
+import FormHandling from "./Components/FormHandling";
+import UseEffectHook from "./Components/UseEffectHook";
+import UseRefHook from "./Components/UseRefHook";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <HelloWorld />
+      <StateComponent /> */}
+      {/* <Conunter /> */}
+      {/* <Toogle /> */}
+      {/* <Lists /> */}
+      {/* <FormHandling /> */}
+      <UseEffectHook />
+      <UseRefHook />
     </div>
   );
 }
